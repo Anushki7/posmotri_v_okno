@@ -16,7 +16,6 @@ html {
   font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
   background-color: #1b1919;
-  position: relative;
 }
 
 h1,
@@ -44,7 +43,6 @@ ol {
   display: flex;
   justify-content: center;
   align-items: flex-end;
-  position: absolute;
 }
 
 .result {
@@ -57,14 +55,14 @@ ol {
 .result__video-container { 
   position:relative;
   display: flex;
-  max-width: 711px;
-  max-height: 386px;
+  width: 711px;
+  height: 386px;
   margin-bottom: 16px;
 }
 
 .result__video {
   width: 100%;
-  max-height: 100%;
+  height: 100%;
   object-fit: cover;
   object-position: center;
 }
@@ -131,8 +129,8 @@ ol {
   border-bottom: 1px solid #fff;
   border-right: none;
   border-left: none;
-  color: rgb(255, 2555, 255 /0.7);
-  font-family: Fira Sans Condensed;
+  color: rgb(255, 255, 255, 0.7);
+  font-family: Fira Sans Condensed, Arial, Helvetica, sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 22px;
@@ -174,7 +172,7 @@ ol {
 
 
 .search-form__label-text {
-  font-family: Fira Sans Condensed;
+  font-family: Fira Sans Condensed, Arial, Helvetica, sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 22px;
@@ -185,7 +183,7 @@ ol {
   border: 1px solid #fff;
   background-color: transparent;
   color: #fff;
-  font-family: Fira Sans Condensed;
+  font-family: Fira Sans Condensed, Arial, Helvetica, sans-serif;
   padding: 5px 10px;
   font-size: 18px;
   font-weight: 700;
@@ -224,7 +222,7 @@ ol {
 
 .title {
   width: 260px;
-  font-family: Oswald;
+  font-family: Oswald, Georgia, 'Times New Roman', Times, serif;
   font-size: 75px;
   font-weight: 700;
   line-height: 94%;
@@ -276,7 +274,6 @@ ol {
 }
 
 .content__video-card {
-  height: 107px;
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
@@ -289,7 +286,7 @@ ol {
 }
 
 .content__video-card-title {
-  font-family: Oswald;
+  font-family: Oswald, Georgia, 'Times New Roman', Times, serif; 
   font-size: 30px;
   font-weight: 700;
   line-height: 100%;
@@ -308,10 +305,9 @@ ol {
 .content__video-card-thumbnail {
   width: 194px;
   height: 103px;
-  /*margin: 2px 3px 2px 0px;*/
   margin: 2px 0px;
   object-fit: cover;
-  object-position: 10px top;
+  object-position: center;
 }
 
 .more-button {
