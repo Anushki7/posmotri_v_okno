@@ -222,7 +222,7 @@ ol {
 
 .title {
   width: 260px;
-  font-family: Oswald, Georgia, 'Times New Roman', Times, serif;
+  font-family: Oswald, sans-serif;
   font-size: 75px;
   font-weight: 700;
   line-height: 94%;
@@ -286,7 +286,7 @@ ol {
 }
 
 .content__video-card-title {
-  font-family: Oswald, Georgia, 'Times New Roman', Times, serif; 
+  font-family: Oswald, sans-serif; 
   font-size: 30px;
   font-weight: 700;
   line-height: 100%;
